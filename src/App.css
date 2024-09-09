@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,600;0,700;1,800&family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
+
+body{
+  background-color:black;
+  margin:auto;
+  font-family: 'Poppins', sans-serif;
+  color:white;
+  padding:10px;
+}
+
+.card{
+  background-color:#2e2e2d;
+  width:200px;
+  border-radius:10px;
+  padding:10px;
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  margin:5px;
+}
+
+.shoe{
+  width:180px;
+  margin-left:auto;
+  margin-right:auto;
+  transform:rotate(-20deg);
+  
+}
+
+.desc{
+  padding:10px;
+  margin-top:-20px;
+  
+}
+
+.price{
+  font-size:20px;
+  padding-top:10px;
+  font-weight:bold;
+}
+
+.rate{
+  margin-left:10px;;
+}
+
+.cart{
+  padding:10px;
+  border:none;
+  border-radius:10px;
+  font-family: 'Poppins', sans-serif;
+  margin-top:10px;
+  width:80%;
+  font-weight:bold;
+   background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  color:white;
+}
+.row{
+  display:flex;
+  padding:10px;
+  width:100%;
+  overflow:auto;
+}
+.row::-webkit-scrollbar{
+  width:0px;
+}
+.move-left{
+  margin-top:auto;
+  margin-bottom:auto;
+  padding:15px;
+  border:none;
+  border-radius:30px;
+  left:0;
+  position:sticky;
+}
+.move-right{
+  margin-top:auto;
+  margin-bottom:auto;
+  padding:15px;
+  border:none;
+  border-radius:30px;
+  right:0;
+  position:sticky;
+}
+.sectitle{
+  padding:10px;
+  margin-bottom:-20px;
+  margin-left:50px;
+}
+
+nav{
+  padding:10px;
+  color:white;
+
+}
+.logo{
+  width:120px;
+  display:inline-block;
+  float:left;
+  margin:10px;
+}
+.link{
+  display:inline-block;
+  margin-top:16px;
+  margin-bottom:16px;
+  margin-left:20px;
+  font-size:20px;
+  align:left;
+}
+.linklist{
+  display:flex;
+  justify-content:flex-end;
+}
+.menu{
+  display:none;
+  background-color:black;
+  color:white;
+  border:none;
+}
+.cartnav{
+    display:block;
+  }
+
+.sidebar{
+  position:fixed;
+  width:240px;
+  height:100%;
+  background-color:white;
+  padding:20px;
+  top:0px;
+  right:0px;
+  display:none;
+}
+.menuitem{
+  text-decoration:none;
+  display:block;
+  padding:20px;
+  color:black;
+  text-align:center;
+}
+.closebtn{
+  border:none;
+  background-color:white;
+  font-size:16px;
+  
+}
+
+@media (max-width: 535px) { 
+  .link{
+    display:none;
+  }
+  .menu{
+    display:block;
+  }
+  
+}
+.bannertxt{
+  font-size:600%;
+  font-weight:bold;
+  border:2px solid white;
+  paading:10px;
+}
+.banner{
+  width:100%;
+}
+.bannershoe{
+  position:relative;
+  transform:rotate(-40deg);
+  z-index:-1;
+  margin-bottom:-120px;
+  margin-right:-400px;
+  
+  
+}
+.art{
+    position:relative;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); 
+    height:400px;
+    margin-bottom:-450px;
+    z-index:-2;
+}
+.space{
+  margin-bottom:150px;
+}
+@media(max-width:660px){
+  .bannertxt{
+    font-size:300%;
+    margin-top:-170px;
+  }
+  .bannershoe{
+  width:300px;
+  margin-top:26px;
+  margin-bottom:-160px;
+  margin-right:50%;
+  margin-left:130px;
+  }
+  .space{
+    margin-bottom:180px;
+  }
+  
+}
+@media(max-width:560px){
+  .bannertxt{
+    font-size:300%;
+    margin-top:-170px;
+  }
+  .bannershoe{
+  width:300px;
+  margin-top:26px;
+  margin-bottom:-160px;
+  margin-right:50%;
+  margin-left:100px;
+  }
+  .space{
+    margin-bottom:180px;
+  }
+  
+}
+@media(max-width:480px){
+  .bannertxt{
+    font-size:300%;
+    margin-top:-170px;
+  }
+  .bannershoe{
+  width:300px;
+  margin-top:18px;
+  margin-bottom:-160px;
+  margin-right:40%;
+  margin-left:40px;
+  }
+  .space{
+    margin-bottom:180px;
+  }
+  
+}
+
+@media(max-width:420px){
+  .bannertxt{
+    font-size:300%;
+    margin-top:-170px;
+  }
+  .bannershoe{
+  width:300px;
+  margin-top:13px;
+  margin-bottom:-160px;
+  margin-right:20px;
+  margin-left:10px;
+  }
+  
+}
+@media(max-width:360px){
+  .bannertxt{
+    font-size:300%;
+    margin-top:-170px;
+  }
+  .bannershoe{
+  width:300px;
+  margin-top:40px;
+  margin-bottom:-170px;
+  margin-right:10px;
+  margin-left:-40px;
+  }
+  .space{
+    margin-bottom:160px;
+  }
+  
+}
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
